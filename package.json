@@ -1,0 +1,23 @@
+{
+  "name": "typescript-with-multi-tsconfig",
+  "description": "",
+  "version": "1.0.0",
+  "bin": {
+    "say-hi": "./bin/dist/say-hi.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build.bin": "tsc --project tsconfig.bin.json",
+    "link": "npm link"
+  },
+  "author": "dulee.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0"
+  }
+}
